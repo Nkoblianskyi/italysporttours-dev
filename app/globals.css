@@ -1,0 +1,171 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Vintage Poster Color Palette */
+  --background: oklch(0.97 0.018 80);       /* warm parchment/cream */
+  --foreground: oklch(0.18 0.03 50);        /* deep sepia brown */
+  --card: oklch(0.95 0.02 78);              /* light parchment */
+  --card-foreground: oklch(0.18 0.03 50);
+  --popover: oklch(0.97 0.018 80);
+  --popover-foreground: oklch(0.18 0.03 50);
+  --primary: oklch(0.42 0.18 27);           /* deep burgundy/brick red */
+  --primary-foreground: oklch(0.97 0.018 80);
+  --secondary: oklch(0.72 0.12 85);         /* vintage ochre/gold */
+  --secondary-foreground: oklch(0.18 0.03 50);
+  --muted: oklch(0.90 0.025 75);
+  --muted-foreground: oklch(0.45 0.04 55);
+  --accent: oklch(0.35 0.08 210);           /* deep vintage navy */
+  --accent-foreground: oklch(0.97 0.018 80);
+  --destructive: oklch(0.52 0.2 27);
+  --destructive-foreground: oklch(0.97 0.018 80);
+  --border: oklch(0.78 0.06 70);
+  --input: oklch(0.88 0.03 75);
+  --ring: oklch(0.42 0.18 27);
+  --radius: 0.125rem;
+
+  /* Custom vintage tokens */
+  --vintage-cream: oklch(0.97 0.018 80);
+  --vintage-burgundy: oklch(0.42 0.18 27);
+  --vintage-ochre: oklch(0.72 0.12 85);
+  --vintage-navy: oklch(0.35 0.08 210);
+  --vintage-sepia: oklch(0.18 0.03 50);
+  --vintage-gold: oklch(0.78 0.14 88);
+  --vintage-paper: oklch(0.93 0.03 78);
+  --vintage-border: oklch(0.78 0.06 70);
+}
+
+@theme inline {
+  --font-sans: var(--font-playfair);
+  --font-mono: 'Courier New', monospace;
+  --font-display: var(--font-oswald);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
+  --color-vintage-cream: var(--vintage-cream);
+  --color-vintage-burgundy: var(--vintage-burgundy);
+  --color-vintage-ochre: var(--vintage-ochre);
+  --color-vintage-navy: var(--vintage-navy);
+  --color-vintage-sepia: var(--vintage-sepia);
+  --color-vintage-gold: var(--vintage-gold);
+  --color-vintage-paper: var(--vintage-paper);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-playfair), Georgia, 'Times New Roman', serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-oswald), 'Impact', sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
+
+/* Vintage texture overlay */
+.vintage-texture {
+  position: relative;
+}
+.vintage-texture::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Vintage border decoration */
+.vintage-border {
+  border: 3px solid var(--vintage-burgundy);
+  box-shadow: inset 0 0 0 1px var(--vintage-ochre), 4px 4px 0 var(--vintage-burgundy);
+}
+
+/* Vintage stamp effect */
+.vintage-stamp {
+  border: 3px double var(--vintage-burgundy);
+  box-shadow: 2px 2px 0 var(--vintage-sepia);
+}
+
+/* Decorative line */
+.vintage-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.vintage-divider::before,
+.vintage-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--vintage-burgundy);
+}
+
+/* Torn paper effect bottom */
+.torn-edge {
+  position: relative;
+}
+.torn-edge::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='8'%3E%3Cpath d='M0 0 Q5 8 10 4 Q15 0 20 6 Q25 8 30 2 Q35 0 40 7 Q45 8 50 3 Q55 0 60 5 Q65 8 70 1 Q75 0 80 6 Q85 8 90 2 Q95 0 100 4 L100 0 Z' fill='%23f5f0e8'/%3E%3C/svg%3E") repeat-x;
+}
+
+/* Scroll-based animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Vintage poster badge */
+.poster-badge {
+  display: inline-block;
+  background: var(--vintage-burgundy);
+  color: var(--vintage-cream);
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border: 1px solid var(--vintage-gold);
+}
