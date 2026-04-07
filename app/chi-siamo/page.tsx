@@ -8,14 +8,14 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Chi Siamo — Italy Sport Tours',
-  description: 'Scopri la storia di Italy Sport Tours: dal 2010 organizziamo tour sportivi indimenticabili in Italia e in tutta Europa.',
+  description: 'Scopri la storia di Italy Sport Tours: dal 2010 organizziamo tour d’autore indimenticabili in Italia e in tutta Europa.',
 }
 
 const values = [
   {
     icon: Heart,
     title: 'Passione Autentica',
-    body: 'Siamo prima di tutto tifosi e appassionati di sport. Ogni tour nasce da un amore genuino per lo sport e per il viaggio, non da calcoli commerciali.',
+    body: 'Siamo prima di tutto viaggiatori. Ogni tour nasce da un amore genuino per la strada, la montagna e l’esplorazione — non da calcoli commerciali.',
   },
   {
     icon: Shield,
@@ -25,7 +25,7 @@ const values = [
   {
     icon: Compass,
     title: 'Cura dei Dettagli',
-    body: 'Come un antico manifesto di viaggio, ogni dettaglio viene studiato e curato: dall\'hotel alla guida, dal ristorante al posto in tribuna.',
+    body: 'Come un antico manifesto di viaggio, ogni dettaglio viene studiato e curato: dall\'hotel alla guida, dal ristorante all’itinerario perfetto.',
   },
 ]
 
@@ -33,17 +33,17 @@ const team = [
   {
     name: 'Marco Ferretti',
     role: 'Fondatore e Direttore',
-    bio: 'Ex giornalista sportivo con 20 anni di esperienza. Ha seguito eventi sportivi in 40 paesi. La sua passione per il calcio italiano è inesauribile.',
+    bio: 'Viaggiatore e organizzatore con 20 anni di esperienza sul campo. Ama le strade di montagna, i passi alpini e le giornate che finiscono con un tramonto in quota.',
   },
   {
     name: 'Giulia Marchetti',
     role: 'Responsabile Tour Europa',
-    bio: 'Specializzata in logistica del turismo sportivo, parla quattro lingue e conosce personalmente ogni venue dei nostri tour europei.',
+    bio: 'Specializzata in logistica e progettazione itinerari, parla quattro lingue e conosce personalmente molti dei luoghi che rendono un viaggio davvero memorabile.',
   },
   {
     name: 'Luca Santini',
     role: 'Guida Senior Italia',
-    bio: 'Nato e cresciuto a Roma, ex atleta di mezzofondo. La sua conoscenza del territorio italiano è enciclopedica e la sua simpatia è contagiosa.',
+    bio: 'Nato e cresciuto a Roma, guida esperta con una conoscenza enciclopedica del territorio italiano. Sa trasformare una giornata di viaggio in un racconto.',
   },
 ]
 
@@ -74,7 +74,7 @@ export default function ChiSiamoPage() {
             <div className="w-16 h-px" style={{ background: 'var(--vintage-gold)' }} />
           </div>
           <p className="text-base leading-relaxed max-w-xl mx-auto" style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-cream)', opacity: 0.85 }}>
-            Dal 2010 trasformiamo la passione per lo sport in ricordi indelebili.
+            Dal 2010 trasformiamo la passione per la strada e la montagna in ricordi indelebili.
           </p>
         </div>
 
@@ -103,10 +103,10 @@ export default function ChiSiamoPage() {
                 </h2>
                 <div className="w-12 h-1 mb-6" style={{ background: 'var(--vintage-burgundy)' }} />
                 <p className="text-base leading-relaxed mb-5 opacity-90" style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-sepia)' }}>
-                  Italy Sport Tours nasce nel 2010 da un&apos;idea semplice: il tifoso italiano merita di più di un biglietto acquistato all&apos;ultimo momento. Merita un&apos;esperienza completa, organizzata con lo stesso amore con cui si segue la propria squadra del cuore.
+                  Italy Sport Tours nasce nel 2010 da un&apos;idea semplice: chi ama viaggiare merita più di un itinerario improvvisato. Merita un&apos;esperienza completa, costruita con cura artigianale e con lo stesso amore con cui si sceglie una strada bella.
                 </p>
                 <p className="text-base leading-relaxed mb-5 opacity-90" style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-sepia)' }}>
-                  Quello che è iniziato come un piccolo gruppo di amici appassionati di sport è diventato un&apos;agenzia di riferimento per il turismo sportivo in Italia e in Europa. Abbiamo portato oltre 2.400 viaggiatori a vivere eventi memorabili, dalle piste toscane ai palazzetti madrileni, dalle tribune londinesi ai circuiti alpini.
+                  Quello che è iniziato come un piccolo gruppo di amici è diventato un&apos;agenzia di riferimento per tour d’autore in Italia e in Europa. Abbiamo portato oltre 2.400 viaggiatori a vivere itinerari memorabili, tra colline, passi alpini, laghi e grandi panorami.
                 </p>
                 <p className="text-base leading-relaxed mb-8 opacity-90" style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-sepia)' }}>
                   Il nostro segreto? Non vendiamo solo un tour. Costruiamo un ricordo. Come quei vecchi manifesti del cinema o del turismo degli anni &apos;50 che ancora appesi sui muri raccontano un&apos;epoca, vogliamo che ogni nostra esperienza rimanga impressa nella memoria per sempre.

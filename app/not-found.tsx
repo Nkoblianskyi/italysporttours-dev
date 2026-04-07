@@ -43,7 +43,7 @@ export default function NotFound() {
             className="text-base leading-relaxed mb-8"
             style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-sepia)', opacity: 0.8 }}
           >
-            Sembra che la pagina che stai cercando sia partita per un tour e non sia ancora tornata. Torna alla home o esplora i nostri tour.
+            Sembra che la pagina che stai cercando abbia preso una deviazione e non sia ancora tornata. Torna alla home o esplora i nostri tour.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

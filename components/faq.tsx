@@ -9,20 +9,20 @@ const faqs = [
     a: 'Per prenotare un tour, compila il modulo di contatto indicando il tour di interesse e le date. Il nostro team ti contatterà entro 24 ore per confermare la disponibilità e procedere con il pagamento. La prenotazione si considera confermata solo dopo la ricezione della caparra del 30%.',
   },
   {
-    q: 'I tour includono i biglietti per gli eventi sportivi?',
-    a: 'Sì, tutti i biglietti per gli eventi sportivi indicati nella descrizione del tour sono inclusi nel prezzo. In alcuni casi, come per eventi di particolare richiesta, possiamo garantire l\'accesso solo acquistando con largo anticipo, motivo per cui consigliamo di prenotare il prima possibile.',
+    q: 'Cosa è incluso nel prezzo del tour?',
+    a: 'Ogni tour specifica chiaramente cosa è incluso. In genere includiamo l’organizzazione completa, le esperienze e le attività indicate, l’alloggio (quando previsto), e l’assistenza del team lungo il percorso. Su richiesta possiamo aggiungere extra come trasferimenti, noleggi o upgrade.',
   },
   {
     q: 'Qual è la politica di cancellazione?',
-    a: 'Le cancellazioni effettuate oltre 60 giorni dalla partenza ricevono il rimborso completo meno le spese amministrative. Tra 30 e 60 giorni si trattiene il 50% del totale. Meno di 30 giorni dalla partenza non è previsto rimborso. In caso di cancellazione dell\'evento sportivo per cause di forza maggiore, riorganizziamo il tour o rimborsiamo integralmente.',
+    a: 'Le cancellazioni effettuate oltre 60 giorni dalla partenza ricevono il rimborso completo meno le spese amministrative. Tra 30 e 60 giorni si trattiene il 50% del totale. Meno di 30 giorni dalla partenza non è previsto rimborso. In caso di condizioni eccezionali (meteo severo o chiusure) valuteremo insieme le alternative migliori: riprogrammazione, cambio itinerario o rimborso secondo i termini applicabili.',
   },
   {
     q: 'I tour sono adatti a tutta la famiglia?',
-    a: 'La maggior parte dei nostri tour è adatta anche alle famiglie con bambini. Tuttavia, alcuni tour con attività più impegnative (come seguire una gara di ciclismo su terreni sconnessi) potrebbero non essere ideali per i più piccoli. Contattaci per un consiglio personalizzato.',
+    a: 'La maggior parte dei nostri tour è adatta anche alle famiglie con bambini. Tuttavia, alcuni itinerari più impegnativi (dislivello in montagna, tratti sterrati o giornate lunghe in sella) potrebbero non essere ideali per i più piccoli. Contattaci per un consiglio personalizzato.',
   },
   {
     q: 'È possibile personalizzare un tour?',
-    a: 'Assolutamente sì. Offriamo tour privati completamente personalizzabili per gruppi, aziende o famiglie. Contattaci con le tue esigenze specifiche — date, sport preferiti, numero di partecipanti, budget — e costruiremo insieme il tour dei tuoi sogni.',
+    a: 'Assolutamente sì. Offriamo tour privati completamente personalizzabili per gruppi, aziende o famiglie. Contattaci con le tue esigenze specifiche — date, stile di viaggio, ritmo, numero di partecipanti, budget — e costruiremo insieme il tour dei tuoi sogni.',
   },
   {
     q: 'Qual è il numero minimo e massimo di partecipanti?',

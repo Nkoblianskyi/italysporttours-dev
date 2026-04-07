@@ -23,7 +23,7 @@ export default function Footer() {
               </p>
             </div>
             <p className="text-sm leading-relaxed opacity-80" style={{ fontFamily: 'var(--font-playfair)' }}>
-              Esperienze sportive indimenticabili in Italia e in tutta Europa.
+              Tour d’autore indimenticabili in Italia e in tutta Europa.
             </p>
           </div>
 

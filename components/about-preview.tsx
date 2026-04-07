@@ -27,7 +27,7 @@ export default function AboutPreview() {
               className="text-4xl md:text-5xl uppercase mb-6 leading-tight text-balance"
               style={{ fontFamily: 'var(--font-oswald)', color: 'var(--vintage-cream)' }}
             >
-              Passione per lo Sport, Amore per il Viaggio
+              Passione per la Strada, Amore per il Viaggio
             </h2>
             <div
               className="w-12 h-1 mb-6"
@@ -37,13 +37,13 @@ export default function AboutPreview() {
               className="text-base leading-relaxed mb-4 opacity-90"
               style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-cream)' }}
             >
-              Italy Sport Tours nasce dalla passione di un gruppo di appassionati di sport e viaggi che credevano si potesse fare di meglio: non solo acquistare un biglietto, ma vivere un&apos;esperienza completa, curata nei minimi dettagli.
+              Italy Sport Tours nasce dalla passione di un gruppo di viaggiatori che credevano si potesse fare di meglio: non solo “andare via”, ma vivere un&apos;esperienza completa, curata nei minimi dettagli.
             </p>
             <p
               className="text-base leading-relaxed mb-8 opacity-90"
               style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-cream)' }}
             >
-              Dal 2010 organizziamo tour sportivi in Italia e in tutta Europa, con la stessa cura artigianale di un vecchio manifesto da viaggio: ogni dettaglio conta, ogni momento deve essere indimenticabile.
+              Dal 2010 organizziamo tour d’autore in Italia e in tutta Europa, con la stessa cura artigianale di un vecchio manifesto da viaggio: ogni dettaglio conta, ogni momento deve essere indimenticabile.
             </p>
 
             {/* Stats */}

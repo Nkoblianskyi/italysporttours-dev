@@ -4,12 +4,12 @@ const tips = [
   {
     icon: Compass,
     title: 'Pianifica in Anticipo',
-    body: 'I biglietti per i grandi eventi sportivi si esauriscono rapidamente. Prenotare con 3-6 mesi di anticipo garantisce i posti migliori e spesso prezzi più convenienti.',
+    body: 'Le date migliori si riempiono rapidamente, soprattutto in alta stagione. Prenotare con 3-6 mesi di anticipo ti dà più scelta su alloggi, itinerari e ritmi di viaggio.',
   },
   {
     icon: Luggage,
     title: 'Viaggia Leggero',
-    body: 'Per i tour sportivi basta uno zaino capiente. Abbigliamento comodo e multistrato, scarpe resistenti e un impermeabile leggero sono i tuoi migliori compagni di viaggio.',
+    body: 'Per i tour in montagna e su strada basta uno zaino capiente. Abbigliamento comodo e multistrato, scarpe resistenti e un impermeabile leggero sono i tuoi migliori compagni di viaggio.',
   },
   {
     icon: Shield,
@@ -19,17 +19,17 @@ const tips = [
   {
     icon: Camera,
     title: 'Cattura i Momenti',
-    body: 'Gli eventi sportivi dal vivo offrono immagini irripetibili. Porta una fotocamera con zoom potente oppure un buon smartphone: i ricordi dureranno per sempre.',
+    body: 'Albe in quota e curve vista mare meritano una foto. Porta una fotocamera leggera oppure un buon smartphone: i ricordi dureranno per sempre.',
   },
   {
     icon: Utensils,
     title: 'Mangia come un Locale',
-    body: 'I ristoranti vicino agli impianti sportivi non sempre sono i migliori. Chiedi alla nostra guida i posti dove mangiano davvero i locali — è lì che troverai l\'autentica cucina del luogo.',
+    body: 'I posti migliori non sono sempre i più visibili. Chiedi al nostro team dove mangiano davvero i locali — è lì che troverai l\'autentica cucina del luogo.',
   },
   {
     icon: Map,
     title: 'Esplora i Dintorni',
-    body: 'Ogni tour sportivo è anche un\'opportunità culturale. Dedica almeno mezza giornata all\'esplorazione della città ospite: troverai tesori nascosti che arricchiranno l\'intera esperienza.',
+    body: 'Ogni tour è anche un\'opportunità culturale. Dedica almeno mezza giornata all\'esplorazione dei dintorni: troverai tesori nascosti che arricchiranno l\'intera esperienza.',
   },
 ]
 
@@ -51,13 +51,13 @@ export default function TravelTips() {
             className="text-4xl md:text-5xl uppercase mb-3 text-balance"
             style={{ fontFamily: 'var(--font-oswald)', color: 'var(--vintage-sepia)' }}
           >
-            Il Viaggiatore Sportivo
+            Il Viaggiatore d’Avventura
           </h2>
           <p
             className="text-base leading-relaxed max-w-lg mx-auto"
             style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-sepia)', opacity: 0.8 }}
           >
-            Anni di esperienza condensati in sei consigli pratici per vivere al meglio ogni tour sportivo in Italia e in Europa.
+            Anni di esperienza condensati in sei consigli pratici per vivere al meglio ogni tour d’autore in Italia e in Europa.
           </p>
         </div>
 

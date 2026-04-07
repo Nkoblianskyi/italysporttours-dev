@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero-bg.jpg"
-          alt="Italy Sport Tours — Viaggi sportivi in Italia e in Europa"
+          alt="Italy Sport Tours — Tour d’autore in Italia e in Europa"
           fill
           className="object-cover"
           priority
@@ -46,7 +46,7 @@ export default function Hero() {
             className="text-xs tracking-[0.3em] uppercase"
             style={{ fontFamily: 'var(--font-oswald)', color: 'var(--vintage-gold)' }}
           >
-            Dal 2010 · Viaggi Sportivi Esclusivi
+            Dal 2010 · Tour d’Autore
           </span>
         </div>
 
@@ -55,7 +55,7 @@ export default function Hero() {
           className="text-5xl sm:text-6xl md:text-7xl text-balance leading-none mb-4 uppercase"
           style={{ fontFamily: 'var(--font-oswald)', color: 'var(--vintage-cream)', letterSpacing: '0.06em' }}
         >
-          Lo sport
+          La strada
           <br />
           <span style={{ color: 'var(--vintage-gold)' }}>come arte</span>
         </h1>
@@ -72,7 +72,7 @@ export default function Hero() {
           className="text-base sm:text-lg leading-relaxed mb-8 max-w-xl text-balance"
           style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-cream)', opacity: 0.9 }}
         >
-          Tour sportivi d&apos;autore in Italia e in tutta Europa. Calcio, ciclismo, tennis, motorsport e molto altro — vissuti come non hai mai immaginato.
+          Tour d&apos;autore in Italia e in tutta Europa: montagne, passi alpini, gravel, sentieri e grandi panorami — vissuti come non hai mai immaginato.
         </p>
 
         {/* CTAs */}

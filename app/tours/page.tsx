@@ -69,7 +69,7 @@ export default function ToursPage() {
             className="text-base leading-relaxed max-w-xl mx-auto"
             style={{ fontFamily: 'var(--font-playfair)', color: 'var(--vintage-cream)', opacity: 0.85 }}
           >
-            Dalla Toscana alle Alpi, da Roma a Londra: ogni tour è un manifesto d&apos;avventura sportiva firmato Italy Sport Tours.
+            Dalla Toscana alle Alpi, dai laghi alle coste: ogni tour è un manifesto d&apos;avventura firmato Italy Sport Tours.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ export default function ToursPage() {
             <div className={`w-full md:flex items-center gap-4 flex-wrap ${showFilters ? 'flex' : 'hidden'}`}>
               {/* Category */}
               <div className="flex items-center gap-2 flex-wrap">
-                <span className="text-xs tracking-wider uppercase opacity-60 shrink-0" style={{ fontFamily: 'var(--font-oswald)', color: 'var(--vintage-sepia)' }}>Sport:</span>
+                <span className="text-xs tracking-wider uppercase opacity-60 shrink-0" style={{ fontFamily: 'var(--font-oswald)', color: 'var(--vintage-sepia)' }}>Stile:</span>
                 <div className="flex gap-1 flex-wrap">
                   {categories.map((cat) => (
                     <button
