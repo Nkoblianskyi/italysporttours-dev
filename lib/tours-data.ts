@@ -31,7 +31,7 @@ export const tours: Tour[] = [
     startDate: '2026-05-15',
     endDate: '2026-05-19',
     duration: '5 giorni',
-    image: '/images/tour-moto-alps.jpg',
+    image: '/images/tour-motorsport-europe.jpg',
     shortDescription: 'Cinque giorni tra curve perfette, panorami d’alta quota e borghi autentici: un itinerario in moto costruito per chi ama la strada.',
     longDescription: `Un tour in moto pensato come un racconto: ogni giorno un passo diverso, ogni sera una valle nuova. Partiremo nel cuore delle Alpi italiane e saliremo lungo strade leggendarie, con soste panoramiche e ritmi che rispettano il piacere della guida.\n\nL’itinerario alterna salite scenografiche, tratti più scorrevoli e deviazioni “segrete” lontano dalle arterie principali. Il focus non è la velocità, ma la qualità: curve, paesaggi, buona cucina e logistica senza pensieri.\n\nUn’esperienza ideale sia per chi viaggia con la propria moto sia per chi preferisce un’opzione con noleggio e supporto organizzativo.`,
     included: [
@@ -64,7 +64,7 @@ export const tours: Tour[] = [
     startDate: '2026-04-18',
     endDate: '2026-04-22',
     duration: '5 giorni',
-    image: '/images/tour-gravel-tuscany.jpg',
+    image: '/images/tour-cycling-tuscany.jpg',
     shortDescription: 'Un itinerario gravel tra colline, cipressi e borghi: sterrati iconici, panorami aperti e sapori toscani.',
     longDescription: `Cinque giorni per vivere la Toscana dal punto di vista migliore: quello delle strade bianche e dei crinali. Pedaleremo su sterrati scorrevoli e tratti più tecnici, alternando salite brevi ma intense a discese panoramiche.\n\nOgni tappa è costruita per essere memorabile e sostenibile: soste nei borghi, caffè in piazza, pranzi lenti e una logistica che ti lascia solo il piacere di pedalare.\n\nPerfetto per chi ama l’avventura “pulita” del gravel e vuole portarsi a casa un vero racconto di viaggio.`,
     included: [
@@ -97,7 +97,7 @@ export const tours: Tour[] = [
     startDate: '2026-07-10',
     endDate: '2026-07-14',
     duration: '5 giorni',
-    image: '/images/tour-dolomites-sunrise.jpg',
+    image: '/images/hero-bg.jpg',
     shortDescription: 'Cinque giorni tra rifugi, sentieri e luci rosa all’alba: un trekking d’autore nel cuore delle Dolomiti.',
     longDescription: `Le Dolomiti non si “visitano”: si attraversano, passo dopo passo, finché diventano parte del tuo ritmo. Questo itinerario unisce sentieri panoramici e giornate ben bilanciate, con partenze all’alba per vivere i momenti più spettacolari in quota.\n\nCammineremo tra forcelle, altipiani e laghi alpini, con soste in rifugio e tempo per respirare. La difficoltà è studiata per chi è allenato a camminare: non serve essere atleti, ma serve voglia di montagna.\n\nUn tour perfetto per chi cerca paesaggio, silenzio e una regia organizzativa che lascia spazio alla meraviglia.`,
     included: [
@@ -130,7 +130,7 @@ export const tours: Tour[] = [
     startDate: '2026-05-28',
     endDate: '2026-06-02',
     duration: '6 giorni',
-    image: '/images/tour-bike-garda.jpg',
+    image: '/images/tour-tennis-french.jpg',
     shortDescription: 'Sei giorni tra lago e montagne: strade panoramiche, borghi sul lungolago e salite “giuste” per un tour memorabile in bici.',
     longDescription: `Il Garda è un microcosmo perfetto: al mattino aria fresca, a mezzogiorno luce sul lago, la sera una piazza viva per cenare bene. Questo tour in bici unisce tratti costieri, salite panoramiche e anelli tra uliveti e piccoli paesi.\n\nLe tappe sono disegnate per godersi la pedalata e non solo “fare chilometri”. Per chi vuole, prevediamo varianti più impegnative; per chi preferisce, percorsi più morbidi.\n\nUn’esperienza d’autore che mette insieme paesaggio, ritmo e piacere della strada.`,
     included: [
@@ -163,7 +163,7 @@ export const tours: Tour[] = [
     startDate: '2026-05-20',
     endDate: '2026-05-27',
     duration: '8 giorni',
-    image: '/images/tour-moto-alps-2.jpg',
+    image: '/images/tour-motorsport-europe.jpg',
     shortDescription: 'Otto giorni tra valichi e vallate: un grande roadtrip in moto con ritmi intelligenti, panorami continui e logistica curata.',
     longDescription: `Un viaggio in moto lungo una delle dorsali più scenografiche d’Europa. Attraverseremo passi, laghi alpini e strade secondarie che sembrano disegnate per chi guida, con tappe equilibrate e soste nei posti giusti.\n\nLa regia del tour privilegia la qualità dell’esperienza: giorni più intensi alternati a giornate “respirate”, così da godere davvero dei luoghi. Ogni sera un arrivo in un paese diverso, ogni mattina una partenza che promette un nuovo panorama.\n\nConsigliato a chi ama le lunghe giornate in sella e vuole un itinerario già pensato nei minimi dettagli.`,
     included: [
@@ -196,7 +196,7 @@ export const tours: Tour[] = [
     startDate: '2026-09-12',
     endDate: '2026-09-16',
     duration: '5 giorni',
-    image: '/images/tour-como-trekking.jpg',
+    image: '/images/tour-athletics-rome.jpg',
     shortDescription: 'Cinque giorni tra sentieri sospesi sul lago, ville storiche e panorami che cambiano a ogni curva: Como in versione trekking.',
     longDescription: `Il Lago di Como ha un fascino cinematografico, ma il suo lato più autentico si scopre salendo. Questo trekking alterna sentieri panoramici a tratti più tranquilli tra borghi, terrazze e antiche mulattiere.\n\nLe giornate sono pensate per godersi il paesaggio senza fretta: partenze comode, soste in punti scenografici e tempo libero per esplorare le rive del lago.\n\nUn tour ideale per chi vuole montagna “gentile” e grande bellezza, con un’organizzazione fluida e curata.`,
     included: [
@@ -229,7 +229,7 @@ export const tours: Tour[] = [
     startDate: '2026-10-16',
     endDate: '2026-10-20',
     duration: '5 giorni',
-    image: '/images/tour-bike-piedmont.jpg',
+    image: '/images/tour-cycling-tuscany.jpg',
     shortDescription: 'Cinque giorni tra vigneti, crinali e borghi: salite dolci, panorami ampi e cucina d’autore.',
     longDescription: `Langhe e Monferrato sono un invito a pedalare con calma. Le strade ondeggiano tra filari e paesi in cima alle colline, con panorami aperti e soste che profumano di cucina piemontese.\n\nQuesto tour è disegnato per chi ama il ritmo “bello”: tappe ben bilanciate, pause nei posti giusti e la sensazione di essere sempre nel punto migliore della giornata.\n\nPerfetto in e-bike o bici tradizionale, con varianti di distanza per adattarsi al gruppo.`,
     included: [
@@ -262,7 +262,7 @@ export const tours: Tour[] = [
     startDate: '2026-08-05',
     endDate: '2026-08-10',
     duration: '6 giorni',
-    image: '/images/tour-moto-liguria.jpg',
+    image: '/images/tour-volleyball-beach.jpg',
     shortDescription: 'Sei giorni tra mare e monti: curve sopra l’acqua, borghi sospesi e soste lente in una delle coste più scenografiche d’Italia.',
     longDescription: `La Liguria è un teatro naturale: strade che si arrampicano dalla costa verso l’entroterra e poi ritornano al mare con viste improvvise. Questo itinerario in moto unisce i classici imperdibili e deviazioni meno battute, con tappe pensate per godersi la guida e i luoghi.\n\nOgni giornata alterna tratti panoramici e soste nei borghi, con tempo per passeggiare sul porto, assaggiare la cucina locale e respirare il ritmo della costa.\n\nUn tour perfetto per chi vuole un roadtrip “elegante”: scenari, curve e logistica curata.`,
     included: [
